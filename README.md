@@ -1,17 +1,17 @@
 
-# 🏀 NBA Career Duration Prediction
+# NBA Career Duration Prediction
 
 This project aims to predict whether an NBA player will have a career lasting at least 5 years based on their rookie season statistics. It demonstrates an end-to-end classification workflow using Python and popular machine learning libraries.
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 
 To predict the long-term career trajectory (≥5 years) of NBA players using rookie season performance metrics. This binary classification task helps identify early indicators of longevity in professional basketball careers.
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 - **Source**: [Kaggle - NBA Player Dataset](https://www.kaggle.com/datasets/yakhyojon/national-basketball-association-nba)
 - **Observations**: 1,340 players
@@ -20,7 +20,7 @@ To predict the long-term career trajectory (≥5 years) of NBA players using roo
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - No missing values found
 - Slight class imbalance (62% with career ≥ 5 years)
@@ -32,7 +32,7 @@ To predict the long-term career trajectory (≥5 years) of NBA players using roo
 
 ---
 
-## 🧠 Modeling Approach
+## Modeling Approach
 
 Three classification models were developed:
 
@@ -48,7 +48,7 @@ Data was split 80/20 and scaled using `StandardScaler` where needed.
 
 ---
 
-## 📈 Evaluation Results
+## Evaluation Results
 
 | Model                   | Accuracy | F1-score (1) | AUC  |
 |------------------------|----------|--------------|------|
@@ -69,7 +69,7 @@ Data was split 80/20 and scaled using `StandardScaler` where needed.
 
 ---
 
-## 🌟 Key Insights
+## Key Insights
 
 - **Games Played (gp)** is the most influential predictor in both RF and XGBoost.
 - Other key factors include `pts`, `ftm`, `fg`, and `min`, highlighting performance volume and efficiency.
@@ -77,7 +77,7 @@ Data was split 80/20 and scaled using `StandardScaler` where needed.
 
 ---
 
-## 📊 Feature Importance
+## Feature Importance
 
 ### Random Forest (Top 10)
 
@@ -89,7 +89,7 @@ Data was split 80/20 and scaled using `StandardScaler` where needed.
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python (pandas, numpy, seaborn, matplotlib)
 - Scikit-learn (LogReg, RF, preprocessing, tuning)
@@ -98,7 +98,7 @@ Data was split 80/20 and scaled using `StandardScaler` where needed.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 📦 nba-career-prediction/
@@ -122,7 +122,7 @@ Data was split 80/20 and scaled using `StandardScaler` where needed.
 
 ---
 
-## 👤 Author
+## Author
 
 **Christos Papakostas**  
 Aspiring Data Analyst with a background in IT & trading, pivoting into data-driven roles.  
@@ -132,13 +132,13 @@ Aspiring Data Analyst with a background in IT & trading, pivoting into data-driv
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 To run this project, you need the following Python packages:
 
